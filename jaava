@@ -1,0 +1,29 @@
+for (int i=0; i < tempsText.length(); i++) {
+
+if (tempsText.charAt(i) == '+' ||
+
+tempsText.charAt(i) == '-' )(
+
+count++;
+
+int[] array2 = new int[count];
+
+int index = 0;
+
+for(int i = 0; i < tempsText.length(); i+=3) (
+
+char cl tempsText.charAt(i);
+
+char c2 tempsText.charAt(i + 1);
+
+char c3 tempsText.charAt(i + 2);
+
+String number = cl+c2+ c3 + "";
+
+int num = Integer.parseInt(number);
+
+array[index] = num;
+
+index++;
+
+return array;
